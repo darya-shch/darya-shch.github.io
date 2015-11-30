@@ -2,11 +2,20 @@ body{
   background-color: #ff99cc;
   font-family: 'Helvetica';
 }
-
+.links{
+  padding: 40px;
+  border-color: red;
+  border: 10px;
+  position: center;
 }
-#social-buttons​ button{color:white;
+.heading{
+  padding:50px;
 }
-.btn-twitter{background-color: #00acee;
+#social-buttons​ button{
+  color:white;
+}
+.btn-twitter{
+  background-color: #00acee;
   border-color: #009ad5;
 }
 .btn-facebook{
@@ -19,7 +28,7 @@ body{
 }
 .jumbotron{
   min-height: 600px;
-  background-image:url('images/fruit-and-veg.jpg');
+  background-image:url('hans.jpg');
   background-size:cover;
   background-attachment: fixed;
 }

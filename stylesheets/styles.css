@@ -55,7 +55,7 @@
 }
 
 body {
-  background-color: #00009c;
+  background-color: #fff7e5;
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
@@ -321,4 +321,23 @@ footer {
     font-size:12pt;
     color:#444;
   }
+}
+#social-buttons​ button{color:white;
+}
+.btn-twitter{background-color: #00acee;
+  border-color: #009ad5;
+}
+.btn-facebook{
+  background-color: #4868ac;
+  border-color: #314776;
+}
+.btn-pinterest{
+  background-color: #b62f26;
+  border-color: #b62f26;
+}
+.jumbotron{
+  min-height: 600px;
+  background-image:url('images/fruit-and-veg.jpg');
+  background-size:cover;
+  background-attachment: fixed;
 }

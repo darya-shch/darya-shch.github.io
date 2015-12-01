@@ -1,16 +1,21 @@
 *{
   font-family: Helvetica;
-  
+  position:center;
 }
+
 body{
-  background-image: url('peep.jpg');
+  background-color: #f00000;
+  /*background: url('peep.jpg') no-repeat fixed-center;*/
   }
+h2{
+  text-align: center;
+  font-size: 50px;
+  color:#400000;
+}
 #topping{
   margin:60px;
-  background-image: url('peep.jpg');
-  /*background-image: url('peep.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;*/
+  border: 2px solid;
+  background-color: white;
 }
 .links{
   font-size:17px;

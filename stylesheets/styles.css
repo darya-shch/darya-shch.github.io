@@ -1,9 +1,19 @@
+*{
+  font-family: Times;
+  
+}
 body{
-  background-color: #ff99cc;
-  font-family: 'Helvetica';
+  
+  }
+#topping{
+  margin:60px;
+  background-color: red;
+  /*background-image: url('peep.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;*/
 }
 .links{
-  padding: 40px;
+  margin: 30px 0 20px 0;
   border-color: red;
   border: 10px;
   position: center;
@@ -31,4 +41,7 @@ body{
   background-image:url('hans.jpg');
   background-size:cover;
   background-attachment: fixed;
+}
+div#mission{
+  position: center-left;
 }
